@@ -1,5 +1,6 @@
 import React from 'react';
-import { Sun, Moon, Map, User, Compass } from 'lucide-react';
+import { Sun, Moon, Compass } from 'lucide-react';
+import logoImg from '../assets/turismo-inteligente-logo.png';
 
 const Header = ({ theme, toggleTheme }) => {
   return (
@@ -12,7 +13,7 @@ const Header = ({ theme, toggleTheme }) => {
       <div className="header-center">
         <div className="logo-container">
           <img 
-            src="/turismo-inteligente-logo.png" 
+            src={logoImg} 
             alt="Logo Turismo Inteligente" 
             className="brand-logo"
           />

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import WhatsAppChatMockup from './components/WhatsAppChatMockup';
 import { MessageSquare, ShieldCheck, Zap, Layers, MapPin, Sparkles, Send, PhoneCall, Award } from 'lucide-react';
+import logoImg from './assets/turismo-inteligente-logo.png';
 import './App.css';
 
 function App() {
@@ -165,7 +166,7 @@ function App() {
         <div className="footer-container">
           <div className="footer-left">
             <div className="footer-logo-row">
-              <img src="/turismo-inteligente-logo.png" alt="Logo" className="footer-logo" />
+              <img src={logoImg} alt="Logo" className="footer-logo" />
               <span>Turismo Inteligente</span>
             </div>
             <p className="footer-desc">

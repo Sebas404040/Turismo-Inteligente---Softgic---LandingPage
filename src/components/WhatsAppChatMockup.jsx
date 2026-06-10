@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Phone, Video, MoreVertical, Send, CheckCheck, Compass, ArrowLeft } from 'lucide-react';
+import logoImg from '../assets/turismo-inteligente-logo.png';
 
 const CHAT_SEQUENCE = [
   {
@@ -166,7 +167,7 @@ const WhatsAppChatMockup = () => {
               <ArrowLeft size={16} className="wa-icon" />
               <div className="wa-avatar-container">
                 <img 
-                  src="/turismo-inteligente-logo.png" 
+                  src={logoImg} 
                   alt="Agent Avatar" 
                   className="wa-avatar" 
                 />
